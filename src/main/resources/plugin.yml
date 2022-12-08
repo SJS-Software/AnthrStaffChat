@@ -1,0 +1,4 @@
+main: software.sjs.anthrStaffChat.AnthrStaffChat
+version: 0.0.0-INDEV
+name: AnthrStaffChat
+author: SJS Software
