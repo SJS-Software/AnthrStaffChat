@@ -1,7 +1,9 @@
 package software.sjs.anthrStaffChat;
 
 import net.md_5.bungee.api.plugin.Plugin;
+import org.bstats.bungeecord.Metrics;
 import software.sjs.anthrStaffChat.config.Config;
+import software.sjs.anthrStaffChat.utils.Utils;
 
 public class AnthrStaffChat extends Plugin {
 
@@ -16,6 +18,7 @@ public class AnthrStaffChat extends Plugin {
 
     @Override
     public void onEnable() {
+        Metrics metrics = new Metrics(this, Utils.getBStatsId());
         super.onEnable();
     }
 
