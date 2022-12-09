@@ -1,0 +1,27 @@
+#     ___        __  __       ______       _____________        __
+#   / _ | ___  / /_/ /  ____/ __/ /____ _/ _/ _/ ___/ /  ___ _/ /_
+#  / __ |/ _ \/ __/ _ \/ __/\ \/ __/ _ `/ _/ _/ /__/ _ \/ _ `/ __/
+# /_/ |_/_//_/\__/_//_/_/ /___/\__/\_,_/_//_/ \___/_//_/\_,_/\__/
+#
+# Main Configuration File.
+#
+#
+#
+#
+
+# Chat Prefix
+PREFIX: '&7[&4ASC&7]&r'
+
+#Chat format
+FORMAT: '%prefix% %player% : %message%'
+
+CHAT_PREFIX: '#'
+
+
+#
+# Permissions
+#
+
+#Permission to use staff chat
+PERMISSION_USE: 'anthr.staffchat.use'
+PERMISSION_COLOR: 'anthr.staffchat.colorize'

@@ -56,4 +56,8 @@ public class AnthrStaffChat extends Plugin {
     public static Metrics getMetrics() {
         return metrics;
     }
+
+    private void loadConfigSettings() {
+        
+    }
 }

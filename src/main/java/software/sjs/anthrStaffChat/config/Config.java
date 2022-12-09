@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
+import java.util.HashMap;
 import java.util.List;
 
 public class Config {
@@ -18,6 +19,8 @@ public class Config {
     private Configuration configuration;
     private File configFile;
     private File configFolder;
+
+    private final HashMap<String,String> configSettings = new HashMap<>();
 
     public boolean load(String fileName) {
         this.fileName = fileName;
@@ -96,5 +99,9 @@ public class Config {
 
     public File getConfigFile() {
         return configFile;
+    }
+
+    public HashMap<String, String> getConfigSettings() {
+        return configSettings;
     }
 }
